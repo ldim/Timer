@@ -1,0 +1,15 @@
+Agent:
+Zawiera ip i port danego agenta.
+AgentsLogic:
+Zawiera cała logikę agenta.Obsługuje komendy syn,net,clk i logikę dotyczącą pierwszego uruchomienia agenta.
+Client:
+Wątek dla obsługi przychodzących requestów i przekazania ich do servera.
+Helper:
+Wysyła request'y do agentów
+Main:
+Uruchamia sieć agentów
+MyHttpHandler:
+Zawiera logikę http serwera
+MyHttpServer:
+Uruchamia http serwer
+ 
